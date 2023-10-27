@@ -1,0 +1,207 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+    width:auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    width: auto;
+}
+
+h3 {
+    color:#25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 0.8em;
+    margin-top: 1.3em;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+#container {
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #c8e7f0;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+}
+
+#logo {
+    width: 9em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+}
+
+/* MAIN */
+
+h1 {
+    color:#25a2c3;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0.8em;
+}
+
+button {
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 4px;
+    padding: 0.8em 1.5em;
+    margin-top: 2em;
+
+}
+
+#hero {
+    background-image: url("../img/banner.jpg");
+    background-position: top;
+    background-size: cover;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    padding-left: 25em;
+    padding-right: 25em;
+    text-align: center;
+}
+
+#notebook {
+    border-radius: 100%;
+    width: 25em;
+    position: absolute;
+    left: 10%;
+}
+
+article {
+    padding-top: 5em;
+    padding-bottom: 10em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    margin-left: 40em;
+}
+
+
+
+.fotoarticle {
+    width: 21em;
+    height: 15em;
+    margin: 0;
+    margin-bottom: -0.5em;
+    padding: 0;
+}
+
+.brd {
+    margin: 0;
+    border-width: 0 1px 1px 1px;
+    border-color: #dee1e3;
+    border-style: solid;
+    padding: 1em;
+}
+
+.brd h3 {
+    margin-top: 0;
+}
+
+.btmarticles {
+    margin-left: auto;
+    display: inline-block;
+    width: 21em;
+    text-align: center;
+}
+
+#bottomart {
+    text-align: center;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside {
+    background-color: #e22d0e;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center;
+}
+
+aside > p {
+    font-weight: 300;
+}
+
+aside p:first-of-type {
+    font-style: oblique;
+    margin: 1em;
+}
+
+aside p:nth-child(3) {
+    font-size: 1.2em;
+}
+
+aside p:nth-child(4) {
+    font-size: 0.7em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    color:  #c8e7f0;
+    padding: 2em;
+    text-align: center;
+}
+
+#addresscont {
+    margin-left: 42%;
+    margin-right: 40%;
+    block-size: auto;
+}
+
+address {
+    text-align: left;
+}
+
+footer h2 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+hr {
+    width: 15em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-top: 0.1em solid #c8e7f0;
+}
+
+footer p:last-child{
+    margin-bottom: 2em;
+}
+
+i {
+    color: white;
+}
